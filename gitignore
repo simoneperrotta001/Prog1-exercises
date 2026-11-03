@@ -1,0 +1,49 @@
+# Eseguibili compilati
+*.out
+*.exe
+*.app
+*.bin
+
+# Eseguibili senza estensione generati da clang/gcc
+ab
+abc
+bagaglio
+supermercato
+
+# File oggetto / compilazione
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# Debug symbols macOS
+*.dSYM/
+*.dSYM
+
+# File temporanei / backup
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# VS Code
+.vscode/
+
+# CMake / build directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Coverage / profiling
+*.gcda
+*.gcno
+*.gcov
+
+# Log
+*.log
