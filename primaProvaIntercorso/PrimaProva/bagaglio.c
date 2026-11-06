@@ -1,3 +1,37 @@
+/*
+ * ============================================================
+ *                    PROVA INTERCORSO 1
+ *                  ESERCIZIO 1 - BAGAGLIO
+ * ============================================================
+ *
+ * Scrivere una function C che riceva come parametri il peso
+ * massimo consentito per un bagaglio e il numero di oggetti
+ * da inserire.
+ *
+ * La funzione deve acquisire da tastiera il peso di ciascun
+ * oggetto, calcolare il peso totale del bagaglio e determinare
+ * l'esito della verifica:
+ *
+ * - positivo, se il peso totale e' minore o uguale al limite
+ *   consentito;
+ *
+ * - negativo, se il peso totale supera tale limite.
+ *
+ * La funzione deve restituire l'esito (1 per esito positivo,
+ * 0 per esito negativo) e il peso totale.
+ *
+ * Implementare un programma completo con main che acquisisca
+ * il peso massimo consentito e il numero di oggetti, richiami
+ * la funzione e visualizzi il peso totale e l'esito della
+ * verifica.
+ *
+ * Si controlli che il peso massimo consentito e il numero
+ * di oggetti siano strettamente positivi e si assume che
+ * tutti i pesi siano positivi.
+ *
+ * ============================================================
+ */
+
 #include <stdio.h>
 
 int verifica_bagaglio(double peso_massimo, int n, double *peso_totale) {
