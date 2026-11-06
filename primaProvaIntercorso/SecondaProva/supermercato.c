@@ -1,3 +1,37 @@
+/*
+ * ============================================================
+ *                    PROVA INTERCORSO 2
+ *                 ESERCIZIO 1 - SUPERMERCATO
+ * ============================================================
+ *
+ * Scrivere una function C che riceva come parametri il
+ * budget disponibile per una spesa al supermercato e il
+ * numero di prodotti da acquistare.
+ *
+ * La funzione deve acquisire da tastiera il prezzo di
+ * ciascun prodotto, calcolare il costo totale della spesa
+ * e determinare l'esito degli acquisti:
+ *
+ * - positivo, se il costo totale e' strettamente inferiore
+ *   al budget;
+ *
+ * - negativo, se il costo totale e' maggiore o uguale
+ *   al budget.
+ *
+ * La funzione deve restituire l'esito (1 per esito positivo,
+ * 0 per esito negativo) e il costo totale.
+ *
+ * Implementare un programma completo di main che acquisisca
+ * il budget e il numero di prodotti, richiami la funzione
+ * e visualizzi il costo totale e l'esito degli acquisti.
+ *
+ * Si controlli che il budget e il numero di prodotti siano
+ * strettamente positivi e si assume che i prezzi inseriti
+ * siano non negativi.
+ *
+ * ============================================================
+ */
+
 #include <stdio.h>
 
 int verifica_spesa(double budget, int n, double *costo_totale) {

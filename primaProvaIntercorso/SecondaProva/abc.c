@@ -1,3 +1,27 @@
+/*
+ * ============================================================
+ *                    PROVA INTERCORSO 2
+ *                 ESERCIZIO 2 - A, B E C
+ * ============================================================
+ *
+ * Scrivere una function C che prenda in input tre valori
+ * reali mediante le variabili a, b e c e restituisca
+ * in output:
+ *
+ * - le variabili a e b con i valori scambiati se a < b.
+ *
+ * - c = |b - a| (valore assoluto) se a >= b
+ *   e c = 0.
+ *
+ * Implementare un programma contenente un main per fare
+ * un esempio di esecuzione della function C realizzata.
+ *
+ * N.B.: usare e scrivere le funzioni scambiare() e
+ * valore_assoluto() viste a lezione.
+ *
+ * ============================================================
+ */
+
 #include <stdio.h>
 
 void scambiare(double *x, double *y) {
